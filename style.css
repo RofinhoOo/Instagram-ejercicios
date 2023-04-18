@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body {
+  margin: 0;
+  
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  padding: 10px;
+  
+  
+}
+
+
+.post {
+    max-width: 500px;
+    margin: 0 auto;
+    background: white;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    
+    
+  }
+  
+ 
+  
+  
+  
+  .post-header {
+
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    height: 2vh;
+    
+    
+    
+  
+  
+  
+    
+    
+    
+    
+  }
+
+  .logo {
+    float: left;
+    font-size: 2em;
+    margin-right: 10px;
+    
+    
+    
+  }
+
+  .post-header h2, .post-header h3 {
+    margin: 2px;
+    font-size: 0.9em;
+    font-weight: normal;
+    
+    
+    
+    
+
+  }
+
+
+  .post-menu i{
+    display: block;
+    float: right;
+    text-align: center;
+    font-size: 2em;
+    margin-left: 350px;
+    
+    
+    
+    
+    
+    
+
+  }
+
+  
+  .post-image img {
+    max-width: 100%;
+    background-size: cover;
+  background-position: center;
+  }
+  
+  .post-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    font-size: 24px;
+    color: black;
+    padding: 10px;
+    
+    
+    
+  }
+  
+  .post-left-icons i {
+    
+    cursor: pointer;
+    
+    
+    
+  }
+  
+  .post-right-icons i {
+    cursor: pointer;
+    
+    
+    
+  }
+  
+  .comments{
+    display: flex;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    vertical-align: top;
+  }
+ 
+  .likes {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    font-weight: normal;
+    margin-left: 10px;
+  }
+  
+  
